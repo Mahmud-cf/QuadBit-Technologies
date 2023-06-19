@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Questrial&family=Sriracha&display=swap');
+
+/* ==============ALL THE HOME PAGE CSS WRITE HERE====================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-font: 'Questrial', sans-serif;
+    --heading-font: 'Darker Grotesque', sans-serif;
+    --red: #EF3B3E;
+    --dark: #171923;
+}
+
+body{
+    color: var(--dark);
+    font-family: var(--primary-font);
+}
+
+/* =================NAVIGATION PART START -==================== */
+
+.home-header{
+    background-image: url('./assets/header-bg.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.navbar{
+    padding:.8rem 0;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+.logo{
+    width:3.5rem;
+}
+.nav-link{
+    margin-right:15px;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 700;
+    color:#fff;
+
+}
+.active{
+    color:#fff!important;
+}
+.nav-bg{
+    position: fixed;
+    width:100%;
+    top:0;
+    background-color: #fffffff4;
+    padding:.2rem;
+    border-bottom: 1px solid var(--dark);
+    z-index: 10;
+    transition: .3s;
+}
+.nav-bg .nav-link{
+    color:var(--dark)!important
+}
+.nav-link:hover{
+    color:#fff;
+}
+.header-wrapper{
+    padding:6rem 2rem;
+    margin-top:4rem;
+}
+.Typewriter{
+    height: 7rem;
+}
+.Typewriter__wrapper{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    letter-spacing: -1px;
+    margin-bottom:2rem;
+    display: inline-block;
+    color:#fff;
+    height: 1rem;
+}
+.Typewriter__cursor{
+    color:#fff;
+    height: 1rem;
+}
+.heading-pera{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+    color: #171923;
+    margin-bottom: 60px;
+    text-align: left;
+    max-width: 700px;
+    margin-bottom:3.5rem;
+    color:#fff
+}
+.header-button{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 1rem 30px;
+    background-color: var(--red);
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 2rem;
+    border: 1px solid #fff;
+    font-weight: 700;
+}
+.header-button:hover{
+    color: #fff;
+    border-color:var(--red);
+    transition: .2s;
+    text-decoration: none;
+    background-color: var(--red);
+}
+
+/* =================ABOUT SECTION ===================== */
+.about-section{
+    padding:6rem 0;
+}
+.about-section-top{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-section-top p:first-child{
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    color: #171923;
+    font-size: 18px;
+    position: relative;
+}
+.about-section-top p:first-child::after{
+    content: '';
+    width:6rem;
+    height: 3px;
+    background-color: var(--red);
+    position: absolute;
+    bottom:.5rem;
+    left: calc(50% - 3rem);
+}
+.about-section-top h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: var(--dark);
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+.about-section-top .about-para{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: var(--dark);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Questrial', sans-serif !important;
+    font-size: 20px !important;
+    line-height: 2;
+    letter-spacing: -1px;
+}
+.about-sectino-details .row{
+    align-items: center;
+}
+.about-sectino-details .row .col-md-6{
+    margin-bottom:3rem;
+}
+.about-sectino-details h3{
+    font-family: var(--heading-font);
+    letter-spacing: -1px;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom:.5rem;
+}
+.about-sectino-details p{
+    line-height: 2;
+    color: #171923;
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-sectino-details p:last-child{
+    margin-top:2.1rem;
+}
+.filter-dropshadow{
+    filter: drop-shadow(40px 40px 0px #F5F9FC);
+}
+
+
+/* ====================PROJECT SECTION START ======================= */
+
+.all-project{
+    padding:0rem;
+    margin-top:5rem;
+    margin-bottom:3rem;
+}
+.single-project{
+    position: relative;
+    padding:.5rem;
+    padding-left:2rem;
+}
+.single-project img{
+    border-radius: 2rem;
+    border: 1px solid #000;
+    height: 26rem;
+    width:100%;
+}
+.single-project h1{
+    position: absolute;
+    bottom:30%;
+    font-size: 80px;
+    overflow: hidden;
+    line-height: 1;
+    text-shadow: 3px 3px 0px #171923;
+    font-family: var(--heading-font);
+    font-weight: 800;
+    color:#fff;
+    text-align: center;
+    overflow: hidden;
+
+}
+.single-project .d-flex{
+    justify-content: center;
+}
+
+
+/* ====================PROJECT TERM PART START ================== */
+
+.project-term {
+    padding:3rem 2.6rem;
+    margin:3rem 0;
+}
+.project-term .row{
+    align-items: center;
+}
+.project-term .project-term-single-part h3{
+    font-weight: 700;
+    font-family: var(--heading-font);
+    letter-spacing: -1px;
+    color: var(--dark);
+    font-size: 30px;
+}
+.project-term .project-term-single-part p{
+    line-height: 2;
+
+    color: #171923;
+    font-size: 18px;
+}
+.project-term .project-term-single-part hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #c0bfbf;
+}
+.term-right-part{
+    position: relative;
+}
+.term-right-part h5{
+    position: absolute;
+    z-index: 2;
+    background: none;
+    padding: 10px;
+    left:-6rem;
+    top: 150px;
+    font-weight: 200;
+    color: #999;
+    text-transform: none;
+    letter-spacing: 0;
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(-90deg);
+    font-size: 16px;
+}
+
+
+/* ===================SERVICES PART START ====================== */
+
+.services-full-wrapper{
+    margin:2rem 0;
+    padding:2.5rem;
+    position: relative;
+}
+.services-wrapper{
+    padding:5rem 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #F5F9FC , transparent);
+    border-radius: 0px;
+    box-shadow: 10px 10px 0 var(--dark);
+    border: 1px solid var(--dark);
+}
+.services-full-wrapper::before{
+    position: absolute;
+    content: '';
+    width:14rem;
+    height: 3px;
+    background-color: var(--red);
+    rotate: 90deg;
+    left: -3rem;
+}
+.services-wrapper h2{
+    font-size: 50px!important;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    margin-bottom:5rem;
+    color:var(--dark)!important
+}
+
+.service-details-wrapper{
+    padding:0 3rem;
+}
+.services-wrapper .icon-wrappr img{
+    width: 3.5rem;
+    margin-bottom:4.5rem;
+}
+.services-wrapper .service-details-wrapper h4{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: var(--heading-font);
+}
+.services-wrapper .service-details-wrapper p{
+    color: #5b5b5b;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.circle {
+    position: absolute;
+    width: 30rem;
+    top:-3rem;
+    left:-8rem;
+    padding-bottom: 100%;
+    overflow: hidden;
+
+  }
+  
+  .circle text {
+    font-family: var(--primary-font);
+    font-size: 11px;
+    font-weight: 400;
+    color:#ddd;
+  }
+  
+  .circle svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 23rem;
+    height: 23rem;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0);
+    }
+  }
+  
+
+/* ==================CONTACT PART WRAPPER =========================== */
+
+.contact-wrappr{
+    width:60%;
+    padding:5rem 8rem;
+    margin:3rem auto;
+    border: 1px solid var(--dark);
+    border-radius: 2rem;
+    position: relative;
+    z-index: 2;
+}
+.contact-wrappr h2{
+    height:6rem;
+}
+.contact-wrappr h2 span{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(23, 25, 35);
+    font-weight: 700;
+}
+.contact-wrappr h2 .Typewriter__wrapper, .contact-wrappr h2 .Typewriter__cursor{
+    color: var(--dark);
+    font-weight: 500;
+}
+.contact-wrappr h2 .Typewriter{
+    display: inline-block ;
+}
+.get-in-tuch{
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    color: var(--dark);
+    font-size: 18px;
+    position: relative;
+    font-weight: 500;
+}
+.get-in-tuch::after{
+    content: '';
+    width: 6rem;
+    height: 3px;
+    background-color: var(--red);
+    position: absolute;
+    bottom: 0.5rem;
+    left: calc(50% - 3rem);
+}
+.contact-wrappr form div{
+    margin:1.3rem 0;
+}
+.contact-wrappr form div label{
+    font-size: 14px;
+    color: var(--dark);
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.contact-wrappr form div svg{
+    font-size: 5px;
+    color: var(--red);
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.contact-wrappr form div input{
+    border-radius: 3px;
+    height: 3rem;
+}
+.contact-wrappr form div select{
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.contact-wrappr form button{
+    background-color: var(--red);
+    border-color: var(--red);
+    padding:.5rem 1.7rem;
+}
+.contact-wrappr form button img{
+    width:2rem;
+}
+/* ===============FOOTER PART START ================= */
+
+.footer-wrapper{
+    background-color: #171923;
+}
+.footer-col-wrapper{
+    padding:6rem 0;
+    color: #fff;
+}
+.footer-wrapper img{
+    width:100%;
+}
+.footer-details{
+    margin-top: 1.5rem;
+    margin-left:1rem;
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-weight: 400;
+    font-family: 'Questrial', sans-serif !important;
+    font-size: 18px !important;
+    line-height: 2;
+    letter-spacing: -.05rem;
+}
+.footer-link{
+    padding-left:4rem;
+}
+.footer-link ul{
+    padding-left:0;
+}
+.footer-link ul li{
+    list-style: none;
+    margin: .6rem .3rem;
+    text-align: center;
+}
+.footer-link ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#fff;
+}
+.footer-link ul li a:hover{
+    text-decoration: underline;
+}
+.footer-col-wrapper h3{
+    font-size: 2.5rem;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    margin-bottom:2rem;
+    margin-top:.8rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
