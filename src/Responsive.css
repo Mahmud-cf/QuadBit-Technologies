@@ -1,29 +1,41 @@
 /* ============== HERE I WRITE RESPONSIVE CSS FOR ONLY HOME PAGE============== */
 
 
-@media only screen and (min-width:1650px){
+@media only screen and (min-width:1800px){
     .container-fluid{
-        padding:.2rem 10rem;
+        padding:.4rem 20rem;
     }
     .navbar{
         padding:0;
     }
     .header-wrapper{
-        padding-left:11rem ;
-        padding-right:11rem;
+        padding-left:21rem ;
+        padding-right:21rem;
+    }
+}
+@media only screen and (min-width:1600px) and (max-width:1900px){
+    .container-fluid{
+        padding:.2rem 15rem;
+    }
+    .navbar{
+        padding:0;
+    }
+    .header-wrapper{
+        padding-left:16rem ;
+        padding-right:16rem;
     }
 }
 
-@media only screen and (min-width:1395px){
+@media only screen and (min-width:1395px) and (max-width:1600px){
     .container-fluid{
-        padding:.2rem 7rem;
+        padding:.2rem 8rem;
     }
     .navbar{
         padding:0;
     }
     .header-wrapper{
-        padding-left:8rem ;
-        padding-right:8rem;
+        padding-left:9rem ;
+        padding-right:9rem;
     }
 }
 @media only screen and (min-width:767px) and (max-width:993px) {
@@ -75,6 +87,12 @@
     }
     .footer-col-wrapper h3{
         font-size: 2rem;
+    }
+    .services-wrapper::before{
+        left: -11%;
+    }
+    .circle{
+        left:-18%;
     }
 }
 @media only screen and (min-width:576px) and (max-width:768px) {
@@ -165,6 +183,18 @@
     }
     .footer-col-wrapper h3{
         font-size: 2rem;
+    }
+    .footer-col-wrapper .col-md-6{
+        order:3;
+    }
+    .footer-link{
+        text-align: center;
+    }
+    .services-wrapper::before{
+        left: -15%;
+    }
+    .circle{
+        left:-30%;
     }
 }
 @media only screen and (min-width:400px) and (max-width:577px) {
@@ -280,6 +310,18 @@
     }
     .contact-wrappr form div input{
         height:2.4rem;
+    }
+    .footer-col-wrapper .col-md-6{
+        order:3;
+    }
+    .footer-link{
+        text-align: center;
+    }
+    .services-wrapper::before{
+        left: -19%;
+    }
+    .circle{
+        left:-38%;
     }
 }
 @media only screen and (max-width:401px) {
@@ -426,5 +468,17 @@
     }
     .footer-col-wrapper h3{
         font-size: 2rem;
+    }
+    .footer-col-wrapper .col-md-6{
+        order:3;
+    }
+    .footer-link{
+        text-align: center;
+    }
+    .services-wrapper::before{
+        left: -28%;
+    }
+    .circle{
+        left:-38%;
     }
 }

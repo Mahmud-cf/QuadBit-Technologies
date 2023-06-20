@@ -25,7 +25,7 @@ function RotateText() {
           <use xlinkHref="#circlePath" fill="none" />
           <text fill="#000">
             <textPath xlinkHref="#circlePath">
-              QUADBIT TECHNOLOGIES . SHOPIFY EXPARTS . QUADBIT TECHNOLOGIES
+              QUADBIT TECHNOLOGIES . GRAPHICS DESIGN . WEB DEVELOPMENT . 
             </textPath>
           </text>
         </g>

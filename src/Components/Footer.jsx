@@ -14,10 +14,7 @@ function Footer() {
                 <h1>QuadBit Technologies</h1>
               </div>
               <p className="footer-details">
-                QuadBit Technologies is an award winning website development
-                agency in New York. We are Shopify Experts & Shopify Plus
-                Experts focused on building dynamic Shopify custom designs for
-                our clients all over the world.
+              © 2023 All Rights Reserved.
               </p>
             </div>
             <div className="col-md-3 col-6 ">

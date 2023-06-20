@@ -28,7 +28,7 @@ body{
     background-image: url('./assets/header-bg.gif');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .navbar{
     padding:.8rem 2.2rem;
@@ -98,7 +98,7 @@ body{
     margin-bottom:3.5rem;
     color:#fff
 }
-.header-button{
+.header-button, .project-button{
     border: 1px solid #fff;
     color: #fff;
     padding: 1rem 30px;
@@ -109,12 +109,21 @@ body{
     border: 1px solid #fff;
     font-weight: 700;
 }
-.header-button:hover{
+.project-button{
+    background-color: var(--dark);
+    padding:.65rem 1.5rem;
+    margin-top:2.6rem;
+}
+.header-button:hover, .project-button:hover{
     color: #fff;
     border-color:var(--red);
     transition: .2s;
     text-decoration: none;
     background-color: var(--red);
+}
+.header-button a, .project-button a{
+    color:#fff;
+    text-decoration: none;
 }
 
 /* =================ABOUT SECTION ===================== */
@@ -194,6 +203,7 @@ body{
     padding:2rem;
     margin-top:5rem;
     margin-bottom:3rem;
+    text-align: center;
 }
 .single-project{
     position: relative;
@@ -278,7 +288,6 @@ body{
 .services-full-wrapper{
     margin:2rem 0;
     padding:2.5rem;
-    position: relative;
 }
 .services-wrapper{
     padding:5rem 0;
@@ -287,15 +296,17 @@ body{
     border-radius: 0px;
     box-shadow: 10px 10px 0 var(--dark);
     border: 1px solid var(--dark);
+    position: relative;
 }
-.services-full-wrapper::before{
+.services-wrapper::before{
     position: absolute;
     content: '';
     width:14rem;
     height: 3px;
     background-color: var(--red);
     rotate: 90deg;
-    left: -3rem;
+    left: -7%;
+    top:-0%;
 }
 .services-wrapper h2{
     font-size: 50px!important;
@@ -328,8 +339,8 @@ body{
 .circle {
     position: absolute;
     width: 30rem;
-    top:-3rem;
-    left:-8rem;
+    top:-5rem;
+    left:-13%;
     padding-bottom: 100%;
     overflow: hidden;
 
@@ -469,7 +480,7 @@ body{
 .footer-details{
     margin-top: 1.5rem;
     margin-left:0rem;
-    color: #86ABCE;
+    color: #bbbbbb;
     font-family: var(--heading-font);
     font-weight: 700;
     font-weight: 400;
@@ -490,13 +501,13 @@ body{
 .footer-link ul li a{
     text-decoration: none;
     font-size: 15px;
-    color:#86ABCE;
+    color:#bbbbbb;
 }
 .footer-link ul li a:hover{
     text-decoration: underline;
 }
 .footer-col-wrapper h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: var(--heading-font);
     font-weight: 700;
     margin-bottom:2rem;

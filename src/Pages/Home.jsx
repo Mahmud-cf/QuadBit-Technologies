@@ -80,7 +80,7 @@ function Home() {
             We create and maintain pixel perfect web creations for clients all
             over the world.
           </p>
-          <button className="btn header-button">Let's get to work!</button>
+          <button className="btn header-button"><a href="/#contact">Let's get to work!</a></button>
         </div>
       </header>
       <div className="container-fluid" id="about">
@@ -90,10 +90,7 @@ function Home() {
               <p>Creative solutions, created better.</p>
               <h2>Award winning website developers.</h2>
               <p className="about-para">
-                QuadBit Technologies is an award winning website development
-                agency in New York. We are Shopify Experts & Shopify Plus
-                Experts focused on building dynamic Shopify custom designs for
-                our clients all over the world.
+              QuadBit Technologies is an award winning tech agency . We are Web and Visualization Experts focused on building dynamic business experience for our clients all over the world.
               </p>
             </div>
           </div>
@@ -103,15 +100,10 @@ function Home() {
               <div className="col-md-6">
                 <h3>Creative solutions</h3>
                 <p>
-                  We believe in coming up with original ideas and turning them
-                  into digital work that is both innovative and interactive. We
-                  are a team of professional developers inspired by creativity
-                  and driven by client success.
+                We believe in coming up with original ideas and turning them into digital work that is both innovative and interactive. We are a team of professionals inspired by creativity and driven by client success.
                 </p>
                 <p>
-                  QuadBit Technologies has developed websites for clients big
-                  and small in every industry. Our versatility is well tested
-                  and our ingenuity is well proven.
+                QuadBit Technologies has developed websites for clients big and small in every industry. Our versatility is well tested and our ingenuity is well proven.
                 </p>
               </div>
               <div className="col-md-6">
@@ -131,31 +123,14 @@ function Home() {
               <div className="col-md-6">
                 <h3>Created better</h3>
                 <p>
-                  QuadBit Technologies is a well respected, well decorated
-                  development agency. With over 30 years of combined development
-                  experience, our team is well versed in all facets of
-                  development, design, search engine optimization, conversion
-                  optimization and more.
+                QuadBit Technologies is a well respected, well decorated development agency. With over 30 years of combined development experience, our team is well versed in all facets of development, design, search engine optimization,Video Editing,Graphics , UI/UX, conversion optimization and more.
                 </p>
-                <p>We do what they do, we just do it better.</p>
+                <p>We do what they do, we just do it better..</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <Services
-        title="What we offer."
-        col_1_title="Web Development "
-        col_2_title="Graphics Design"
-        col_3_title="Video Editing"
-        col_1_des="Crafting pixel-perfect web solutions for global clients. Elevate your online presence today!"
-        col_2_des="Elevate your brand with stunning graphic design solutions. Unleash creativity, captivate audiences."
-        col_3_des="Transform your footage with expert video editing. Unleash the power of visual storytelling."
-        img1={web_d}
-        img2={graphic}
-        img3={video}
-      />
 
       <div className="project-wrapper container-fluid" id="projects">
         <div className="all-project">
@@ -211,6 +186,7 @@ function Home() {
               link="https://www.balotrade.com/"
             />
           </div>
+          <button className="project-button" ><a href="#contact">Contact Us</a></button>
         </div>
       </div>
 
@@ -260,17 +236,16 @@ function Home() {
       </div>
 
       <Services
-        title="Creating for creators."
-        col_1_title="Who we are"
-        col_2_title="What we do"
-        col_3_title="Why we do it"
-        col_1_des="QuadBit Technologies is an award winning web development & creative
-        design company."
-        col_2_des="We create and maintain pixel perfect web creations for clients all over the world."
-        col_3_des="We tried out for the football team and got cut. So we learned how to make websites."
-        img1={serviceimg1}
-        img2={serviceimg2}
-        img3={serviceimg3}
+        title="What we offer."
+        col_1_title="Web Development "
+        col_2_title="Graphics Design"
+        col_3_title="Video Editing"
+        col_1_des="Crafting pixel-perfect web solutions for global clients. Elevate your online presence today!"
+        col_2_des="Elevate your brand with stunning graphic design solutions. Unleash creativity, captivate audiences."
+        col_3_des="Transform your footage with expert video editing. Unleash the power of visual visualization."
+        img1={web_d}
+        img2={graphic}
+        img3={video}
       />
 
       <Contact />

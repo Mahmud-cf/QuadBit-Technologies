@@ -15,7 +15,8 @@ function Services() {
   return (
     <div className="services-wapper">
       <Navigation logo1={logo} logo2={logo} />
-      <div className="container-fluid">
+      <div className="">
+        <div className="container-fluid">
         <div className="services-header">
           <h1>Our services.</h1>
           <p>
@@ -23,10 +24,11 @@ function Services() {
             a heck of a lot of passion!
           </p>
         </div>
+        </div>
         <div className="experties-wrapper">
           <Service
             title="Our expertise, your experts."
-            para="As one of the top-reviewed Shopify & Shopify Plus experts, our team of skilled designers and developers bring years of experience to the table. We partner with brands to bring their stories to life through creative design, innovative thinking, and a heck of a lot of passion."
+            para="As one of the top-growing agency  , our team of skilled designers and developers bring years of experience to the table. We partner with brands to bring their stories to life through creative design, innovative thinking, and a heck of a lot of passion."
             col_1_title="Web Development "
             col_2_title="Graphics Design"
             col_3_title="Video Editing"
@@ -39,19 +41,14 @@ function Services() {
           />
         </div>
 
+        <div className="container-fluid">
         <div className="project-management">
           <div className="row">
             <div className="col-md-6 text-center">
               <div className="project-management-left-part">
-                <p>Made with love in New York.</p>
                 <h3>Project management.</h3>
                 <p>
-                  Your projects will be developed by our New York based
-                  developers. Throughout all of our projects, you will have
-                  access to a dedicated account dashboard, where we will be able
-                  to efficiently, and effictively share updates, files and more!
-                  You will have a dedicated project manager to ensure project
-                  success!
+                Your projects will be developed by our developers. Throughout all of our projects, you will have access to a dedicated account dashboard, where we will be able to efficiently, and effictively share updates, files and more! You will have a dedicated project manager to ensure project success!
                 </p>
               </div>
             </div>
@@ -67,32 +64,10 @@ function Services() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="project-comment container-fluid">
-        <div className="col-md-6">
-          <div className="comment-wrapper">
-            <div>
-              <p>
-                "These minions are everything you imagined they would be;
-                Dedicated, hard working, and always there for you! I came into
-                this project knowing exactly what I wanted, and they delivered.
-                As a business owner I tend to be demanding (sorry guys), but the
-                minions were beyond patient and worked in a professional, timely
-                manner. They also helped me to learn the backend of the website,
-                and how many of the new features worked. They made it incredibly
-                easy to communicate with them, and made it a priority to make
-                time for me (no matter how silly my questions). I truly
-                appreciated that. The best part? They made a process that could
-                have been potentially really stressful, really FUN! The new site
-                is not just functional, it’s fabulous! Thank you for everything
-                minions!"
-              </p>
-              <h5>Jessica & Glamour Dolls Makeup</h5>
-            </div>
-          </div>
         </div>
       </div>
+
+      
 
       <div className="work-process container-fluid ">
         <div className="work-process-wrapper">
@@ -177,32 +152,24 @@ function Services() {
                   always running at peak efficiency.
                 </p>
                 <ul>
-                  <li>Ongoing design support</li>
-                  <li>New feature recommendations</li>
-                  <li>Third party app integrations</li>
-                  <li>Update Shopify theme functionality</li>
-                  <li>Ongoing design support</li>
-                  <li>CSS & styling changes</li>
+                  <li>Theme Development</li>
+                  <li>Shopify Plus Scripting</li>
+                  <li>Custom Widgets</li>
+                  <li>Application Integration</li>
                 </ul>
               </div>
             </div>
             <div className="col-md-6">
               <div className="work-process-single-item">
-                <h4>Design</h4>
+              <h4>eCommerce & mCommerce</h4>
                 <p>
-                  In a perfect world, it would be as easy as hitting publish on
-                  your new website and watch the sales roll in. While we all
-                  know that isn’t the case, it’s no reason to panic. Our team
-                  will work with you to put together an à la carte strategy that
-                  suits your business needs.
+                  We have helped clients all over the world create captivating ecommerce web presences that work. Capture salse on all devices wherever you want to see.
                 </p>
                 <ul>
-                  <li>Social media design</li>
-                  <li>Branded email marketing templates</li>
-                  <li>Conversion rate optimizations</li>
-                  <li>Site performance optimizations</li>
-                  <li>Search engine optimizations</li>
-                  <li>Analytics</li>
+                  <li>Integrated Shopping Cart</li>
+                  <li>Conversion Optimization</li>
+                  <li>Ad placements</li>
+                  <li>Products & Other Management</li>
                 </ul>
               </div>
             </div>
