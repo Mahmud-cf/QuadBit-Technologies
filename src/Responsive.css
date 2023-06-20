@@ -1,0 +1,430 @@
+/* ============== HERE I WRITE RESPONSIVE CSS FOR ONLY HOME PAGE============== */
+
+
+@media only screen and (min-width:1650px){
+    .container-fluid{
+        padding:.2rem 10rem;
+    }
+    .navbar{
+        padding:0;
+    }
+    .header-wrapper{
+        padding-left:11rem ;
+        padding-right:11rem;
+    }
+}
+
+@media only screen and (min-width:1395px){
+    .container-fluid{
+        padding:.2rem 7rem;
+    }
+    .navbar{
+        padding:0;
+    }
+    .header-wrapper{
+        padding-left:8rem ;
+        padding-right:8rem;
+    }
+}
+@media only screen and (min-width:767px) and (max-width:993px) {
+    .header-wrapper{
+        margin-top: 1rem;
+    }
+    .navbar .navbar-toggler{
+        padding:0rem;
+        border-color: #fff;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/nev-image.jpg');
+        width:2.8rem;
+        height: 2.2rem;
+    }
+    .nav-bg .navbar-toggler{
+        border-color: #3d3c3c;
+        padding:.2rem .5rem;
+    }
+    .nav-bg .navbar-toggler-icon{
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        width:2rem;
+        height:2rem;
+    }
+    .services-wrapper h2{
+        padding-bottom: 2.6rem;
+    }
+    .circle svg{
+        width:19rem;
+        height: 19rem;
+    }
+    .service-details-wrapper{
+        padding:0 .7rem;
+    }
+    .single-project img{
+        height: 17rem;
+    }
+    .single-project h1{
+        font-size: 3.4rem;
+    }
+    .contact-wrappr{
+        width:100%;
+    }
+    .footer-wrapper .logo-wrapper img{
+        width:2.5rem;
+    }
+    .footer-wrapper .logo-wrapper h1{
+        font-size: 2.2rem;
+    }
+    .footer-col-wrapper h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .header-wrapper{
+        margin-top: 1rem;
+        padding:3.5rem 1rem;
+    }
+    .navbar{
+        padding:.2rem 1rem!important;
+    }
+    .home-header{
+        background-size: cover;
+    }
+    .Typewriter__wrapper{
+        font-size: 48px;
+        margin-bottom:2rem;
+    }
+    .header-button{
+        display: none;
+    }
+    .about-section-top h2{
+        font-size: 36px;
+    }
+    .about-section{
+        padding:3rem 0;
+    }
+    .about-section-top p:first-child{
+        margin-bottom:15px;
+    }
+    .about-section-top .about-para{
+        line-height: 1.7;
+    }
+    .navbar .navbar-toggler{
+        padding:0rem;
+        border-color: #fff;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/nev-image.jpg');
+        width:2.8rem;
+        height: 2.2rem;
+    }
+    .nav-bg .navbar-toggler{
+        border-color: #3d3c3c;
+        padding:.2rem .5rem;
+    }
+    .nav-bg .navbar-toggler-icon{
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        width:2rem;
+        height:2rem;
+    }
+    .services-wrapper h2{
+        padding-bottom: 2.6rem;
+    }
+    .circle svg{
+        width:22rem;
+        height: 22rem;
+    }
+    .service-details-wrapper{
+        padding:0 .7rem;
+    }
+    .single-project img{
+        height: 23rem;
+    }
+    .single-project h1{
+        font-size: 3.4rem;
+    }
+    .contact-wrappr{
+        width:100%;
+        padding:3rem 5rem;
+    }
+    .footer-wrapper .logo-wrapper{
+        justify-content: center;
+    }
+    .footer-details{
+        padding-right:0;
+        width:70%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .footer-col-wrapper{
+        padding:3.5rem 0;
+    }
+    .footer-wrapper .logo-wrapper img{
+        width:2.5rem;
+    }
+    .footer-wrapper .logo-wrapper h1{
+        font-size: 2.2rem;
+    }
+    .footer-col-wrapper h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:577px) {
+    .header-wrapper{
+        margin-top: 1rem;
+        padding:4.5rem 1rem;
+    }
+    .navbar{
+        padding:.2rem 1rem!important;
+    }
+    .home-header{
+        background-size: cover;
+    }
+    .Typewriter__wrapper{
+        font-size: 38px;
+        margin-bottom:2rem;
+    }
+    .Typewriter{
+        height:4.5rem;
+    }
+    .heading-pera{
+        font-size: 18px;
+    }
+    .header-button{
+        display: none;
+    }
+    .about-section-top h2{
+        font-size: 36px;
+    }
+    .about-section-top .about-para{
+        font-size: 18px!important;
+    }
+    .about-section{
+        padding:3rem 0;
+    }
+    .about-section-top p:first-child{
+        margin-bottom:15px;
+    }
+    .about-section-top .about-para{
+        line-height: 1.7;
+    }
+    .navbar .navbar-toggler{
+        padding:0rem;
+        border-color: #fff;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/nev-image.jpg');
+        width:2.8rem;
+        height: 2.2rem;
+    }
+    .nav-bg .navbar-toggler{
+        border-color: #3d3c3c;
+        padding:.2rem .5rem;
+    }
+    .nav-bg .navbar-toggler-icon{
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        width:2rem;
+        height:2rem;
+    }
+    .services-wrapper h2{
+        padding-bottom: 2.6rem;
+    }
+    .circle svg{
+        width:21rem;
+        height: 21rem;
+    }
+    .service-details-wrapper{
+        padding:0 .7rem;
+    }
+    .services-full-wrapper{
+        padding:1.3rem;
+    }
+    .services-wrapper{
+        box-shadow: none;
+    }
+    .single-project img{
+        height: 17rem;
+    }
+    .single-project h1{
+        font-size: 2.8rem;
+    }
+    .project-term .project-term-single-part p {
+        line-height: 1.6;
+        font-size: 17px;
+    }
+    .get-in-tuch{
+        margin-bottom:0;
+    }
+    .contact-wrappr{
+        width:100%;
+        padding:3rem 2rem;
+    }
+    .footer-wrapper .logo-wrapper{
+        justify-content: center;
+    }
+    .footer-details{
+        padding-right:0;
+        width:70%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .footer-col-wrapper{
+        padding:3.5rem 0;
+    }
+    .footer-wrapper .logo-wrapper img{
+        width:2.5rem;
+    }
+    .footer-wrapper .logo-wrapper h1{
+        font-size: 2.2rem;
+    }
+    .footer-col-wrapper h3{
+        font-size: 2rem;
+    }
+    .contact-wrappr form div input{
+        height:2.4rem;
+    }
+}
+@media only screen and (max-width:401px) {
+    *{
+        max-width: 100%;
+    }
+    .header-wrapper{
+        margin-top: 1rem;
+        padding:4.5rem 1rem;
+    }
+    .home-header{
+        background-size: cover;
+    }
+    .navbar{
+        padding:.2rem 1rem!important;
+    }
+    .Typewriter__wrapper{
+        font-size: 38px;
+        margin-bottom:2rem;
+    }
+    .Typewriter{
+        height:7.5rem;
+    }
+    .heading-pera{
+        font-size: 18px;
+    }
+    .header-button{
+        display: none;
+    }
+    .about-section-top h2{
+        font-size: 32px;
+    }
+    .about-section-top .about-para{
+        font-size: 18px!important;
+    }
+    .about-sectino-details p{
+        font-size: 16px;
+        line-height: 1.8;
+    }
+    .about-section{
+        padding:3rem 0;
+    }
+    .about-section-top p:first-child{
+        margin-bottom:15px;
+    }
+    .about-section-top .about-para{
+        line-height: 1.7;
+    }
+    .navbar .navbar-toggler{
+        padding:0rem;
+        border-color: #fff;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/nev-image.jpg');
+        width:2.8rem;
+        height: 2.2rem;
+    }
+    .nav-bg .navbar-toggler{
+        border-color: #3d3c3c;
+        padding:.2rem .5rem;
+    }
+    .nav-bg .navbar-toggler-icon{
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        width:2rem;
+        height:2rem;
+    }
+    .services-wrapper {
+        padding:3rem 0;
+    }
+    .services-wrapper  .col-md-4{
+        padding-right:0;
+        padding-left:1.5rem;
+    }
+    .services-full-wrapper::before{
+        left:-5rem;
+        
+    }
+    .services-wrapper h2{
+        padding-bottom: 2.6rem;
+        font-size: 36px!important;
+    }
+    .services-wrapper .icon-wrappr img{
+        margin-bottom: 1.5rem;
+    }
+    .circle svg{
+        width:18rem;
+        height: 18rem;
+    }
+    .service-details-wrapper{
+        padding:0 .7rem;
+    }
+    .services-full-wrapper{
+        padding:1.3rem;
+    }
+    .services-wrapper{
+        box-shadow: none;
+    }
+    .all-project{
+        padding:0;
+    }
+    .all-project .row{
+        margin-left: .1rem;
+    }
+    .single-project{
+        padding:.5rem 0;
+    }
+    .single-project img{
+        height: 15rem;
+    }
+    .single-project h1{
+        font-size: 2.8rem;
+    }
+    .project-term .project-term-single-part p {
+        line-height: 1.6;
+        font-size: 17px;
+    }
+    .get-in-tuch{
+        margin-bottom:0;
+    }
+    .contact-wrappr{
+        width:100%;
+        padding:3rem 2rem;
+    }
+    .contact-wrappr form div input{
+        height:2.4rem;
+    }
+    .footer-wrapper .logo-wrapper{
+        justify-content: center;
+    }
+    .footer-details{
+        padding-right:0;
+        width:70%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    .footer-col-wrapper{
+        padding:3.5rem 0;
+    }
+    .footer-wrapper .logo-wrapper img{
+        width:2.5rem;
+    }
+    .footer-wrapper .logo-wrapper h1{
+        font-size: 1.6rem;
+    }
+    .footer-col-wrapper h3{
+        font-size: 2rem;
+    }
+}

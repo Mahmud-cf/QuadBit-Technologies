@@ -1,14 +1,18 @@
 import React from "react";
-import logo from "../assets/footer-logo.png";
+import logo from "../assets/logo2.png";
 
 function Footer() {
   return (
     <div className="container-fluid footer-wrapper">
       <div className="container">
         <div className="footer-col-wrapper">
+        
           <div className="row">
-            <div className="col-md-4 col-sm-6">
-              <img src={logo} alt="" />
+            <div className="col-md-6 col-12">
+            <div className="logo-wrapper d-flex">
+                <img src={logo} alt="" />
+                <h1>QuadBit Technologies</h1>
+              </div>
               <p className="footer-details">
                 QuadBit Technologies is an award winning website development
                 agency in New York. We are Shopify Experts & Shopify Plus
@@ -16,7 +20,7 @@ function Footer() {
                 our clients all over the world.
               </p>
             </div>
-            <div className="col-md-4 col-sm-6 ">
+            <div className="col-md-3 col-6 ">
               <div className="footer-link">
                 <h3>Links</h3>
                 <ul>
@@ -38,7 +42,7 @@ function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="col-md-4 col-sm-6 ">
+            <div className="col-md-3 col-6 ">
               <div className="footer-link">
                 <h3>Projects</h3>
                 <ul>

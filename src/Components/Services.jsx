@@ -10,7 +10,7 @@ export default function Services(props) {
         <p className="services-para" >{props.para}</p>
         <RotateText/>
         <div className="row">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4">
             <div className="icon-wrappr">
               <img src={props.img1} alt="" />
             </div>
@@ -22,7 +22,7 @@ export default function Services(props) {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4">
             <div className="icon-wrappr">
               <img src={props.img2} alt="" />
             </div>
@@ -33,7 +33,7 @@ export default function Services(props) {
               </p>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4">
             <div className="icon-wrappr">
               <img src={props.img3} alt="" />
             </div>

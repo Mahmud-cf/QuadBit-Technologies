@@ -70,7 +70,7 @@ function Services() {
       </div>
 
       <div className="project-comment container-fluid">
-        <div className="col-6">
+        <div className="col-md-6">
           <div className="comment-wrapper">
             <div>
               <p>

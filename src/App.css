@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&family=Questrial&family=Sriracha&display=swap');
-
+@font-face {
+    font-family: myfont;
+    src: url('./assets/Font/custom.ttf');
+}
 /* ==============ALL THE HOME PAGE CSS WRITE HERE====================== */
 
 *{
@@ -28,7 +31,7 @@ body{
     background-size: 100% 100%;
 }
 .navbar{
-    padding:.8rem 0;
+    padding:.8rem 2.2rem;
 }
 .navbar-expand-lg .navbar-collapse{
     justify-content: flex-end;
@@ -188,14 +191,13 @@ body{
 /* ====================PROJECT SECTION START ======================= */
 
 .all-project{
-    padding:0rem;
+    padding:2rem;
     margin-top:5rem;
     margin-bottom:3rem;
 }
 .single-project{
     position: relative;
     padding:.5rem;
-    padding-left:2rem;
 }
 .single-project img{
     border-radius: 2rem;
@@ -297,11 +299,11 @@ body{
 }
 .services-wrapper h2{
     font-size: 50px!important;
-    margin-bottom: 30px;
     font-weight: 700;
     font-family: var(--heading-font);
     margin-bottom:5rem;
-    color:var(--dark)!important
+    color:var(--dark)!important;
+    padding-bottom: 5rem;
 }
 
 .service-details-wrapper{
@@ -434,7 +436,7 @@ body{
     text-align: center;
     font-size: 14px;
 }
-.contact-wrappr form button{
+.contact-wrappr form .btn{
     background-color: var(--red);
     border-color: var(--red);
     padding:.5rem 1.7rem;
@@ -451,36 +453,44 @@ body{
     padding:6rem 0;
     color: #fff;
 }
-.footer-wrapper img{
-    width:100%;
+.footer-wrapper .logo-wrapper{
+    align-items: center;
+}
+.footer-wrapper .logo-wrapper img{
+    width:4rem;
+}
+.footer-wrapper .logo-wrapper h1{
+    display: inline-block;
+    font-family: myfont;
+    margin-bottom: 0;
+    margin-left:7px;
+    font-size: 3.2rem;
 }
 .footer-details{
     margin-top: 1.5rem;
-    margin-left:1rem;
-    color: #fff;
+    margin-left:0rem;
+    color: #86ABCE;
     font-family: var(--heading-font);
     font-weight: 700;
     font-weight: 400;
     font-family: 'Questrial', sans-serif !important;
-    font-size: 18px !important;
+    font-size: 15px !important;
     line-height: 2;
     letter-spacing: -.05rem;
+    padding-right: 9rem;
 }
-.footer-link{
-    padding-left:4rem;
-}
+
 .footer-link ul{
     padding-left:0;
 }
 .footer-link ul li{
     list-style: none;
     margin: .6rem .3rem;
-    text-align: center;
 }
 .footer-link ul li a{
     text-decoration: none;
-    font-size: 16px;
-    color:#fff;
+    font-size: 15px;
+    color:#86ABCE;
 }
 .footer-link ul li a:hover{
     text-decoration: underline;
@@ -491,7 +501,6 @@ body{
     font-weight: 700;
     margin-bottom:2rem;
     margin-top:.8rem;
-    text-align: center;
 }
 
 

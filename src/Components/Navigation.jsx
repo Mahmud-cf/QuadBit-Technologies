@@ -21,7 +21,7 @@ function Navigation(props) {
         scroll ? "navbar navbar-expand-lg nav-bg" : "navbar navbar-expand-lg "
       }
     >
-      <div className="container">
+      <div className="container-fluid">
         <Navbar.Brand href="/">
           <img src={scroll?props.logo2:props.logo1} alt="Creative Campus" className="logo" />
         </Navbar.Brand>

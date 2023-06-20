@@ -2,7 +2,7 @@ import React from "react";
 
 function SingleProject(props) {
   return (
-    <div className="single-project col-6">
+    <div className="single-project col-md-6">
       <a href={props.link} target="blank">
         <div className="d-flex">
           <h1>{props.title}</h1>

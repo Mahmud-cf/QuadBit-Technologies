@@ -26,7 +26,7 @@ body{
     color: var(--dark)
 }
 .navbar{
-    padding:.2rem 0;
+    padding:.2rem 2.2rem;
     border-bottom: 1px solid var(--dark);
 }
 .services-header{
@@ -183,4 +183,73 @@ body{
     left:-4%;
     top:40%;
 }
+
+
+@media only screen and (max-width:900px){
+    
+    .work-process-single-item ul li::before {
+        left:-9%;
+    }
+}
+@media only screen and (max-width:767px){
+    .services-header h1{
+        margin-top:6rem;
+    }
+    .services-header h1, .project-management h3, .work-process-wrapper h2{
+        font-size: 44px;
+    }
+    .services-header p, .services-para, .work-process-para{
+        font-size: 18px!important;
+        line-height: 1.8;
+    }
+    .comment-wrapper{
+        padding-left:0;
+    }
+    .work-process-wrapper{
+        padding:.8rem;
+    }
+    .work-process-single-item ul li::before {
+        left:-12%;
+    }
+}
+
+
+
+@media only screen and (max-width:401px){
+    .services-header h1{
+        margin-top:4rem;
+    }
+    .services-header h1, .project-management h3, .work-process-wrapper h2{
+        font-size: 38px;
+    }
+    .services-header p, .services-para, .work-process-para{
+        font-size: 17px!important;
+        line-height: 1.7;
+    }
+    .comment-wrapper{
+        padding-left:0;
+    }
+    .work-process-wrapper{
+        padding:.8rem;
+    }
+    .work-process-single-item ul li::before {
+        left:-12%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

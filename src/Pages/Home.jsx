@@ -14,17 +14,18 @@ import project_img_6 from "../assets/project6.webp";
 import project_img_7 from "../assets/project7.webp";
 import project_img_8 from "../assets/project8.webp";
 import project_img_9 from "../assets/project9.webp";
+import project_img_10 from "../assets/project10.png";
 import Services from "../Components/Services";
-import serviceimg1 from '../assets/trophy.png'
-import serviceimg2 from '../assets/sheet.png'
-import serviceimg3 from '../assets/running.png'
-import web_d from '../assets/web_d.png'
-import graphic from '../assets/graphic.png'
-import video from '../assets/video.png'
+import serviceimg1 from "../assets/trophy.png";
+import serviceimg2 from "../assets/sheet.png";
+import serviceimg3 from "../assets/running.png";
+import web_d from "../assets/web_d.png";
+import graphic from "../assets/graphic.png";
+import video from "../assets/video.png";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
-import logo1 from '../assets/logo.png'
-import logo2 from '../assets/logo2.png'
+import logo1 from "../assets/logo.png";
+import logo2 from "../assets/logo2.png";
 
 function Home() {
   return (
@@ -52,13 +53,6 @@ function Home() {
                   .deleteAll()
 
                   .changeDelay(100)
-                  .typeString("We love what we do.")
-                  .callFunction(() => {})
-                  .pauseFor(1000)
-                  .changeDeleteSpeed(50)
-                  .deleteAll()
-
-                  .changeDelay(100)
                   .typeString("We help build businesses.")
                   .callFunction(() => {})
                   .pauseFor(1000)
@@ -67,6 +61,15 @@ function Home() {
 
                   .changeDelay(100)
                   .typeString("Creating for visionary creators.")
+                  
+                  .callFunction(() => {})
+                  .pauseFor(1000)
+                  .changeDeleteSpeed(50)
+                  .deleteAll()
+
+                  .changeDelay(100)
+                  
+                  .typeString("We love what we do.")
                   .callFunction(() => {})
 
                   .start();
@@ -87,12 +90,10 @@ function Home() {
               <p>Creative solutions, created better.</p>
               <h2>Award winning website developers.</h2>
               <p className="about-para">
-                
-              QuadBit Technologies is an award winning website development agency in
-                  New York. We are Shopify Experts & Shopify Plus Experts
-                  focused on building dynamic Shopify custom designs for our
-                  clients all over the world.
-                
+                QuadBit Technologies is an award winning website development
+                agency in New York. We are Shopify Experts & Shopify Plus
+                Experts focused on building dynamic Shopify custom designs for
+                our clients all over the world.
               </p>
             </div>
           </div>
@@ -108,9 +109,9 @@ function Home() {
                   and driven by client success.
                 </p>
                 <p>
-                QuadBit Technologies has developed websites for clients big and small
-                  in every industry. Our versatility is well tested and our
-                  ingenuity is well proven.
+                  QuadBit Technologies has developed websites for clients big
+                  and small in every industry. Our versatility is well tested
+                  and our ingenuity is well proven.
                 </p>
               </div>
               <div className="col-md-6">
@@ -130,10 +131,11 @@ function Home() {
               <div className="col-md-6">
                 <h3>Created better</h3>
                 <p>
-                QuadBit Technologies is a well respected, well decorated development
-                  agency. With over 30 years of combined development experience,
-                  our team is well versed in all facets of development, design,
-                  search engine optimization, conversion optimization and more.
+                  QuadBit Technologies is a well respected, well decorated
+                  development agency. With over 30 years of combined development
+                  experience, our team is well versed in all facets of
+                  development, design, search engine optimization, conversion
+                  optimization and more.
                 </p>
                 <p>We do what they do, we just do it better.</p>
               </div>
@@ -142,69 +144,73 @@ function Home() {
         </div>
       </div>
 
-      <Services 
-        title='What we offer.'
-        col_1_title='Web Development '
-        col_2_title='Graphics Design'
-        col_3_title='Video Editing'
-        col_1_des='Crafting pixel-perfect web solutions for global clients. Elevate your online presence today!'
-        col_2_des='Elevate your brand with stunning graphic design solutions. Unleash creativity, captivate audiences.'
-        col_3_des='Transform your footage with expert video editing. Unleash the power of visual storytelling.'
+      <Services
+        title="What we offer."
+        col_1_title="Web Development "
+        col_2_title="Graphics Design"
+        col_3_title="Video Editing"
+        col_1_des="Crafting pixel-perfect web solutions for global clients. Elevate your online presence today!"
+        col_2_des="Elevate your brand with stunning graphic design solutions. Unleash creativity, captivate audiences."
+        col_3_des="Transform your footage with expert video editing. Unleash the power of visual storytelling."
         img1={web_d}
         img2={graphic}
         img3={video}
-              
       />
 
-
-      <div className="project-wrapper container-fluid p-2" id="projects">
+      <div className="project-wrapper container-fluid" id="projects">
         <div className="all-project">
-          <SingleProject
-            title="Pool Supplies Canada"
-            project_img={project_img_1}
-            link="https://www.poolsuppliescanada.ca/"
-          />
-          <SingleProject
-            title="Daily Fish"
-            project_img={project_img_2}
-            link="http://www.dailyfish.in/"
-          />
-          <SingleProject
-            title="Sydney Bio Packaging"
-            project_img={project_img_3}
-            link="https://sydneybiopackaging.com.au/"
-          />
-          <SingleProject
-            title="Vapestop Global"
-            project_img={project_img_4}
-            link="https://vapestopglobal.com/ae"
-          />
-          <SingleProject
-            title="Auto Color Warehouse"
-            project_img={project_img_5}
-            link="https://www.autocolorwarehouse.com/"
-          />
-          <SingleProject
-            title="Genesis Group"
-            project_img={project_img_6}
-            link="http://genesisgroup.com.au/"
-          />
-          <SingleProject
-            title="TR Poppers"
-            project_img={project_img_7}
-            link="https://www.trtoppers.com/"
-          />
-          <SingleProject
-            title="Maal Gaadi"
-            project_img={project_img_8}
-            link="https://www.maalgaadi.net/"
-          />
-          <SingleProject
-            title="Balo Trade"
-            project_img={project_img_9}
-            link="https://www.balotrade.com/"
-          />
-          
+          <div className="row">
+            <SingleProject
+              title="Pool Supplies Canada"
+              project_img={project_img_1}
+              link="https://www.poolsuppliescanada.ca/"
+            />
+            <SingleProject
+              title="Daily Fish"
+              project_img={project_img_2}
+              link="http://www.dailyfish.in/"
+            />
+            <SingleProject
+              title="Sydney Bio Packaging"
+              project_img={project_img_3}
+              link="https://sydneybiopackaging.com.au/"
+            />
+            <SingleProject
+              title="Vapestop Global"
+              project_img={project_img_4}
+              link="https://vapestopglobal.com/ae"
+            />
+            <SingleProject
+              title="Auto Color Warehouse"
+              project_img={project_img_5}
+              link="https://www.autocolorwarehouse.com/"
+            />
+            <SingleProject
+              title="Genesis Group"
+              project_img={project_img_6}
+              link="http://genesisgroup.com.au/"
+            />
+            <SingleProject
+              title="TR Poppers"
+              project_img={project_img_7}
+              link="https://www.trtoppers.com/"
+            />
+            <SingleProject
+              title="Maal Gaadi"
+              project_img={project_img_8}
+              link="https://www.maalgaadi.net/"
+            />
+            <SingleProject
+              title="Ivy City Co."
+              project_img={project_img_10}
+              link="https://ivycityco.com/"
+            />
+            <SingleProject
+              title="Balo Trade"
+              project_img={project_img_9}
+              link="https://www.balotrade.com/"
+            />
+          </div>
         </div>
       </div>
 
@@ -253,28 +259,23 @@ function Home() {
         </div>
       </div>
 
-      <Services 
-        title='Creating for creators.'
-        col_1_title='Who we are'
-        col_2_title='What we do'
-        col_3_title='Why we do it'
-        col_1_des='QuadBit Technologies is an award winning web development & creative
-        design company.'
-        col_2_des='We create and maintain pixel perfect web creations for clients all over the world.'
-        col_3_des='We tried out for the football team and got cut. So we learned how to make websites.'
+      <Services
+        title="Creating for creators."
+        col_1_title="Who we are"
+        col_2_title="What we do"
+        col_3_title="Why we do it"
+        col_1_des="QuadBit Technologies is an award winning web development & creative
+        design company."
+        col_2_des="We create and maintain pixel perfect web creations for clients all over the world."
+        col_3_des="We tried out for the football team and got cut. So we learned how to make websites."
         img1={serviceimg1}
         img2={serviceimg2}
         img3={serviceimg3}
-
       />
 
-              <Contact/>
+      <Contact />
 
-              <Footer/>
-
-
-
-
+      <Footer />
     </div>
   );
 }
