@@ -318,7 +318,12 @@ body{
 }
 
 .service-details-wrapper{
-    padding:0 3rem;
+    padding:0 3rem ;
+    
+}
+.servic-page-service{
+    text-align: left;
+    padding:0;
 }
 .services-wrapper .icon-wrappr img{
     width: 3.5rem;
@@ -334,6 +339,7 @@ body{
     line-height: 2;
     margin-bottom: 20px;
     font-size: 16px;
+    margin-top:1.5rem;
 }
 
 .circle {

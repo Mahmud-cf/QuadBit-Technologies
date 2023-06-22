@@ -54,7 +54,7 @@ body{
 .services-para, .work-process-para{
     max-width: 700px;
     margin:0 auto;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     color: var(--dark);
     font-family: var(--heading-font);
     font-weight: 400;
@@ -183,6 +183,65 @@ body{
     left:-4%;
     top:40%;
 }
+.service-row-wrapper{
+    padding:0 2rem;
+}
+.servic-page-service{
+    margin-top:3rem;
+}
+.servic-page-service ul{
+    padding-left:1.8rem;
+}
+.servic-page-service ul li{
+    list-style: none;
+    position: relative;
+    margin:12px 0;
+}
+.planing-wrapper{
+    margin-top:5rem;
+}
+.servic-page-service ul li::before{
+    position: absolute;
+    content: '';
+    width:1.2rem;
+    height: 1px;
+    background-color:var(--red);
+    left:-1.7rem;
+    top:5px
+}
+.single-praning-div-wrapper{
+    padding:.5rem;
+    text-align: center;
+}
+.single-praning-div-wrapper img{
+    width:4rem;
+    height:4rem;
+    display: inline-block;
+    margin:2rem 0;
+}
+.single-praning-div-wrapper h2{
+    color: var(--dark);
+    position: relative;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    font-family: var(--heading-font);
+    letter-spacing: -1px;
+    padding-bottom:.7rem;
+}
+.single-praning-div-wrapper p{
+    color: #171923;
+    margin-bottom: 0;
+    line-height: 2;
+}
+.single-praning-div-wrapper h2::after{
+    content: '';
+    position: absolute;
+    width:2rem;
+    height:1px;
+    background-color: var(--dark);
+    bottom:0;
+    left:calc(50% - 1rem)
+}
 
 
 @media only screen and (max-width:900px){
@@ -234,6 +293,9 @@ body{
     }
     .work-process-single-item ul li::before {
         left:-12%;
+    }
+    .service-row-wrapper{
+        padding:0 .2rem;
     }
 }
 

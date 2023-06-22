@@ -242,7 +242,7 @@ function Home() {
         col_3_title="Video Editing"
         col_1_des="Crafting pixel-perfect web solutions for global clients. Elevate your online presence today!"
         col_2_des="Elevate your brand with stunning graphic design solutions. Unleash creativity, captivate audiences."
-        col_3_des="Transform your footage with expert video editing. Unleash the power of visual visualization."
+        col_3_des="Transform your footage with expert video editing. Unleash the power of visualization."
         img1={web_d}
         img2={graphic}
         img3={video}

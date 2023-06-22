@@ -22,19 +22,19 @@ function Footer() {
                 <h3>Links</h3>
                 <ul>
                   <li>
-                    <a href="/">Projects</a>
+                    <a href="/#projects">Projects</a>
                   </li>
                   <li>
-                    <a href="/">Services</a>
+                    <a href="/#services">Services</a>
                   </li>
                   <li>
-                    <a href="/">Capabilities</a>
+                    <a href="/services">Capabilities</a>
                   </li>
                   <li>
-                    <a href="/">Contact</a>
+                    <a href="/#contact">Contact</a>
                   </li>
                   <li>
-                    <a href="/">Login</a>
+                    <a href="/login">Login</a>
                   </li>
                 </ul>
               </div>
@@ -44,19 +44,19 @@ function Footer() {
                 <h3>Projects</h3>
                 <ul>
                   <li>
-                    <a href="http://www.dailyfish.in/">Daily Fish</a>
+                    <a href="http://www.dailyfish.in/" target="blank">Daily Fish</a>
                   </li>
                   <li>
-                    <a href="https://vapestopglobal.com/ae">Vapestop Global</a>
+                    <a href="https://vapestopglobal.com/ae" target="blank">Vapestop Global</a>
                   </li>
                   <li>
-                    <a href="http://genesisgroup.com.au/">Genesis Group</a>
+                    <a href="http://genesisgroup.com.au/" target="blank">Genesis Group</a>
                   </li>
                   <li>
-                    <a href="https://www.trtoppers.com/">TR Poppers</a>
+                    <a href="https://www.trtoppers.com/" target="blank">TR Poppers</a>
                   </li>
                   <li>
-                    <a href="https://www.maalgaadi.net/">Maal Gaadi</a>
+                    <a href="https://www.maalgaadi.net/" target="blank">Maal Gaadi</a>
                   </li>
                 </ul>
               </div>
